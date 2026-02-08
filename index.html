@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Void | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">void</div>
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="home">Home</a></li>
+            <li><a href="#projects" data-i18n="projects">Projects</a></li>
+            <li><a href="#contact" data-i18n="contact">Contact</a></li>
+            <li><a href="#support" data-i18n="support">Financial Support</a></li>
+            <li><button id="lang-toggle" class="lang-btn">Arabic</button></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-image-wrapper">
+                <img src="assets/avatar.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1 data-i18n="welcome">Welcome to my website, I am <span class="highlight">void</span></h1>
+                <p class="subtitle" data-i18n="subtitle">Developer</p>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact">Contact</h2>
+            <div class="contact-grid">
+                <a href="tel:+201002171310" class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <span class="label" data-i18n="phone">Phone</span>
+                        <span class="value">01002171310</span>
+                    </div>
+                </a>
+                
+                <a href="mailto:ismaildev69@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <span class="label" data-i18n="email">Email</span>
+                        <span class="value">ismaildev69@gmail.com</span>
+                    </div>
+                </a>
+
+                <a href="https://discord.com/users/YOUR_NUMERIC_ID" target="_blank" class="contact-card">
+                    <i class="fab fa-discord"></i>
+                    <div>
+                        <span class="label">Discord</span>
+                        <span class="value">void5845</span>
+                    </div>
+                </a>
+
+                <a href="https://github.com/void" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <span class="label">GitHub</span>
+                        <span class="value">ismaildev69-sketch</span>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/YOUR-PROFILE-URL" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div>
+                        <span class="label">LinkedIn</span>
+                        <span class="value">void .</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="support" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="support">Financial Support</h2>
+            <div class="wallet-card">
+                <div class="wallet-header">
+                    <i class="fas fa-wallet"></i>
+                    <span data-i18n="vodafone_cash">Vodafone Cash</span>
+                </div>
+                <div class="wallet-number">
+                    01002171310
+                </div>
+                <p class="wallet-note" data-i18n="support_msg">Thank you for your support.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+       <p>void</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
